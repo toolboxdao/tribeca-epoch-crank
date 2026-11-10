@@ -98,7 +98,7 @@ const run = async () => {
 
   const rewarderConfig = await (
     await fetch(
-      `https://raw.githubusercontent.com/saberdao/rewarder-list-build/master/mainnet-beta/rewarders/rXhAofQCT7NN9TUqigyEAUzV1uLL4boeD8CRkNBSkYk/full.json`
+      `https://raw.githubusercontent.com/toolboxdao/rewarder-list-build/master/mainnet-beta/rewarders/rXhAofQCT7NN9TUqigyEAUzV1uLL4boeD8CRkNBSkYk/full.json`
     )
   ).json();
   const configMints: PublicKey[] = rewarderConfig?.quarries.map(
